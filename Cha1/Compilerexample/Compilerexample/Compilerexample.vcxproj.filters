@@ -24,5 +24,11 @@
     <ClCompile Include="testEnum.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lexicalAnalysis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testChar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

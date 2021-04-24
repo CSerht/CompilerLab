@@ -152,7 +152,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Compilerexample.cpp" />
+    <ClCompile Include="lexicalAnalysis.c" />
     <ClCompile Include="test.c" />
+    <ClCompile Include="testChar.c" />
     <ClCompile Include="testEnum.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
