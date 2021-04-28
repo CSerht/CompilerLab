@@ -30,5 +30,19 @@
     <ClCompile Include="testChar.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="syntacticAnalysis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lexicalAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="syntacticAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

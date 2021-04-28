@@ -153,9 +153,15 @@
   <ItemGroup>
     <ClCompile Include="Compilerexample.cpp" />
     <ClCompile Include="lexicalAnalysis.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="syntacticAnalysis.c" />
     <ClCompile Include="test.c" />
     <ClCompile Include="testChar.c" />
     <ClCompile Include="testEnum.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lexicalAnalysis.h" />
+    <ClInclude Include="syntacticAnalysis.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
